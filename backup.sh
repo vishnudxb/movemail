@@ -19,5 +19,5 @@ while [ "$1" != "" ]; do
   esac
 done
 
-cd ~ && git clone git@github.com:vishnudxb/movemail.git && \
+cd ~ && git clone https://github.com/vishnudxb/movemail.git && \
         cd movemail && ./gyb --email $EMAIL --local-folder "$FOLDER"
