@@ -19,4 +19,4 @@ while [ "$1" != "" ]; do
   esac
 done
 
-cd ~/movemail && ./gyb --email $EMAIL --action restore --local-folder "$FOLDER"
+cd ~/movemail && ./movemail --email $EMAIL --action restore --local-folder "$FOLDER"

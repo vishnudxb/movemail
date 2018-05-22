@@ -20,4 +20,4 @@ while [ "$1" != "" ]; do
 done
 
 cd ~ && git clone https://github.com/vishnudxb/movemail.git && \
-        cd movemail && ./gyb --email $EMAIL --local-folder "$FOLDER"
+        cd movemail && ./movemail --email $EMAIL --local-folder "$FOLDER"
